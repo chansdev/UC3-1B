@@ -51,3 +51,8 @@ __[PROJETO](https://codepen.io/Heitor-Chans/pen/bGXePxY)__
 Esse projeto, apesar de simples, ultiliza um código um pouco mais avançado. Ele pega a frase ou palavra escrita, inverte ela e diz se fica igual a se ela não estivesse invertida.
 
 __[PROJETO](https://codepen.io/Heitor-Chans/pen/wvVGQpp)__
+
+### Pokemon
+#### Simula uma batalha de pokemon
+Esse é o projeto que eu tenho mais orgulho até agora, pois ele é bem complexo. Eu trabalhei nele como "front-end" junto com o meu amigo [João Mendonça](https://github.com/JoaoPapaya).  
+Nele você controla um dragonite e tem que vencer uma batalha contra um gengar. Pode parecer simples mas tenha certeza que não foi. Eu fiquei muito tempo tentando descobrir uma maneira de como fazer com que a barra de vida funcionasse, mas no final deu tudo certo.
