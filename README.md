@@ -103,7 +103,8 @@ O if e else permite-nos definir uma condição e fazer que algo aconteça quando
       console.log('Resposta errada...') // 'Resposta errada...'
     }
 
-  // O if compara uma condição expecifica e retorna algo, e o else, colocado no final, retorna algo se nenhum das condições acima forem verdadeiras
+  // O if compara uma condição expecifica e retorna algo, e o else, colocado no final, retorna algo se nenhum das condições
+  // acima forem verdadeiras
   ```
 
 ## Atividades desenvolvidas
