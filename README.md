@@ -3,9 +3,63 @@ Boas vindas! Este é seu caderno virtual. Aqui você deverá guardar todos os co
 
 
 ## Conteúdo Técnico
-Escreva aqui os conteúdos aprendidos.
 
+### O Que É JavaScript
+JavaScript é uma linguagem de progamação, geralmente ultilizada para front-end, que interage com os elementos da página.
 
+### Var
+Var é uma maneira de criar uma variável no JavaScript.  
+Uma variável var pode ser usada e modificada de qualquer escolpo do progama.
+**Exemplo:**
+  ```js
+    var exemplo = 'exemplo'
+    console.log(exemplo) // 'exemplo'
+  ```
+
+### let
+Let é uma maneira de criar variável no JavaScript.  
+Uma variável let só pode ser usada por algo no mesmo escolpo ou em um inferior, e só pode ser modificada por uma variável const ou outra let.
+  ```js
+    let exemplo = 'exemplo'
+    console.log(exemplo) // 'exemplo'
+  ```
+
+### const
+Cost é uma maneira de criar variável no JavaScript.
+Uma variável const não pode ser modificada por nenhuma outra variavel e pode ser usada por algo no mesmo escolpo ou em um inferior.
+  ```js
+    const exemplo = 'exemplo'
+    console.log(exemplo) // 'exemplo'
+  ```
+### String
+String é um dos elementos primários do JavaScript.  
+Ele representa um texto puro e pode ser facilmente concatenado ultilizando a adição.
+  ```js
+    string1 = 'Oi '
+    string2 = 'pessoa!'
+    novaString = 'Oi pessoa!'
+    console.log(novaString) // 'Oi pessoa!'
+  ```
+
+### Number
+Number é um dos elementos primários do JavaScript.  
+Ele representa um número e com ele podemos facilmente fazer cálculos matemáticos.
+  ```js
+    n1 = 2
+    n2 = 3
+    somaN = n1 + n2
+    console.log(somaN) // 5 
+  ```
+
+### Boolean
+Boolean é um dos elementos primários do JavaScript.  
+Ele representa um valor de true(verdadeiro) ou false(falso). Isso é muito usado quando precisamos saber quando uma condição que criamos é verdadeira para assim aplicar o que acontecera se isso for verdade.
+
+  ```js
+    console.log(isNaN('texto')) // true
+    console.log(isNaN(1)) // false
+    // isNaN é uma função que checa se algo inserido não é um número. Se não for um número ele retorna o valor booleano true.
+  ```
 
 ## Atividades desenvolvidas
 
