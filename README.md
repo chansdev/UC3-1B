@@ -45,3 +45,9 @@ __[PROJETO](https://codepen.io/Heitor-Chans/pen/yLdGbWL)__
 Esse é um projeto bem básico e simples. Ele apenas mostra cada feriado nacional presente no mês escolhido ultilizando o switch case.
 
 __[PROJETO](https://codepen.io/Heitor-Chans/pen/bGXePxY)__
+
+### Palindromo
+#### Diz se a frase ou palavra digitada é um palindromo
+Esse projeto, apesar de simples, ultiliza um código um pouco mais avançado. Ele pega a frase ou palavra escrita, inverte ela e diz se fica igual a se ela não estivesse invertida.
+
+__[PROJETO](https://codepen.io/Heitor-Chans/pen/wvVGQpp)__
