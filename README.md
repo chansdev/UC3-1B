@@ -39,3 +39,9 @@ Além disso tudo isso só acontece quando você clica no botão "comprar".
 *Não fui eu que fiz o css desse botão*
 
 __[PROJETO](https://codepen.io/Heitor-Chans/pen/yLdGbWL)__
+
+### Feriados nacionais
+#### Informa os feriados nacionais de cada mês
+Esse é um projeto bem básico e simples. Ele apenas mostra cada feriado nacional presente no mês escolhido ultilizando o switch case.
+
+__[PROJETO](https://codepen.io/Heitor-Chans/pen/bGXePxY)__
