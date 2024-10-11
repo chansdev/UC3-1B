@@ -61,6 +61,51 @@ Ele representa um valor de true(verdadeiro) ou false(falso). Isso é muito usado
     // isNaN é uma função que checa se algo inserido não é um número. Se não for um número ele retorna o valor booleano true.
   ```
 
+### Operadores Lógicos
+Os operadores lógicos são operadores que nos permitem juntar, inverter ou escolher uma das condições que criamos.
+  ```js
+    // && Verifica se as duas condições são verdadeiras
+    console.log(isNaN('texto') && isNaN('texto2')) // true
+    console.log(isNaN('texto') && isNaN(2)) // false
+
+    // || Verifica se pelomenos uma das condições são verdadeiras
+    console.log(isNaN('texto') || isNaN(3)) // true
+    console.log(isNaN(2) || isNaN(3)) // false
+
+    // ! Inverte a condição
+    console.log(!isNaN(4)) // true
+  ```
+
+### Operadores Comparativos
+Os operadores comparativos são operadores que nos permitem comparar uma condição com algo.
+  ```js
+    // == compara se o resultado é igual a algo.
+    const texto = 'texto'
+    console.log(texto == 'texto') // true
+    // Está comparando uma variavel com uma String com valor "texto" a uma String, fora de variavel, com valor "texto".
+
+    // === compara se o valor e o tipo são iguais a alto
+    const numero = '3'
+    console.log(numero === 3) // false
+    // Está comparando uma variavel com uma String com valor "3" a um Number, fora de variavel, com valor 3.
+
+    // Lembrando que mesmo que a String e o Number tenham o mesmo valor eles são elementos diferentes. 
+  ```
+
+### If e Else
+O if e else permite-nos definir uma condição e fazer que algo aconteça quando essa condição for verdadeira.
+  ```js
+    resposta = '5'
+
+    if (resposta == '5') {
+      console.log('Resposta correta!') // 'Resposta correta!'
+    } else {
+      console.log('Resposta errada...') // 'Resposta errada...'
+    }
+
+  // O if compara uma condição expecifica e retorna algo, e o else, colocado no final, retorna algo se nenhum das condições acima forem verdadeiras
+  ```
+
 ## Atividades desenvolvidas
 
 ### Caixa Eletrônico | Sistema de Notas | Jogo de adivinhação
