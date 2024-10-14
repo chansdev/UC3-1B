@@ -145,6 +145,23 @@ E, assim como outros elementos, a Array tem diversos métodos.
     console.log(compras) // "arroz", "banana", "biscoito", "frango", 
   ```
 
+### Função
+Funções são blocos de construção no JavaScript.
+Elas são conjuntos de instruções que definem coisas que acontecem em condições específicas.
+
+  ```js
+    senha = senha123
+    let senhaUser = prompt("Digite a senha:")
+
+    function verificarSenha() {
+      if (senhaUser == senha) {
+        alert("Senha correta")
+      } else {
+        alert("Senha incorreta")
+      }
+    }
+  ```
+
 ## Atividades desenvolvidas
 
 ### Caixa Eletrônico | Sistema de Notas | Jogo de adivinhação
