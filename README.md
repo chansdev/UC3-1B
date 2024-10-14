@@ -106,6 +106,44 @@ O if e else permite-nos definir uma condição e fazer que algo aconteça quando
   // O if compara uma condição expecifica e retorna algo, e o else, colocado no final, retorna algo se nenhum das condições
   // acima forem verdadeiras
   ```
+### Switch Case
+O switch case permite-nos usar uma variável e "navegar" a partir dela, definindo o que acontece com cada variação da variável
+
+  ```js
+    var filho = planta
+
+    switch (filho) {
+      case "planta" :
+        console.log("Parabens! Agora você )é pai/mãe de planta!!!")
+      case "cachorro" :
+        console.log("Parabens! Agora você é pai/mãe de pet!!!")
+      case "criança" :
+        console.log("Parabens! Agora você é pai/mãe de humano!!!"
+    }
+  ```
+
+### Array
+A Array representa uma lista de elementos no JavaScript.
+E, assim como outros elementos, a Array tem diversos métodos.
+
+  ```js
+    const compras = ["maçã", "banana", "biscoito", "frango", "arroz", "feijão"]
+    console.log(compras) // "maçã", "banana", "biscoito", "frango", "arroz", "feijão"
+
+    compras.pop() // "feijão"
+    // O método pop remove o ultimo item da Array e retorna ele
+    console.log(compras) // "maçã", "banana", "biscoito", "frango", "arroz"
+    
+
+    compras.shift() // "maçã"
+    // O metodo shift remove o primeiro item da Array e retorna ele
+    console.log(compras) // "banana", "biscoito", "frango", "arroz"
+    
+
+    compras.sort()
+    // Organiza a Array em ordem "alfabética"
+    console.log(compras) // "arroz", "banana", "biscoito", "frango", 
+  ```
 
 ## Atividades desenvolvidas
 
