@@ -153,13 +153,15 @@ Elas são conjuntos de instruções que definem coisas que acontecem em condiç�
     senha = senha123
     let senhaUser = prompt("Digite a senha:")
 
-    function verificarSenha() {
-      if (senhaUser == senha) {
+    function verificarSenha(i) {
+      if (i == senha) {
         alert("Senha correta")
       } else {
         alert("Senha incorreta")
       }
     }
+
+    verificar(senhaUser)
   ```
 
 ## Atividades desenvolvidas
